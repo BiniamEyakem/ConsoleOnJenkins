@@ -1,4 +1,6 @@
 ﻿using System;
+using ConsoleOnJenkins.Models;
+using Newtonsoft.Json;
 
 namespace ConsoleOnJenkins
 {
@@ -11,7 +13,7 @@ namespace ConsoleOnJenkins
             {
                 name = args[0];
             }
-            
+             
             Console.WriteLine($"Hello {name}!");
         }
     }
